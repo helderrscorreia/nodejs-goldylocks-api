@@ -1,0 +1,32 @@
+{
+  "name": "goldylocks",
+  "version": "1.0.0",
+  "description": "Library to access Goldylocks invoicing system API",
+  "main": "lib/goldylocks",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node lib/goldylocks.js",
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helderrscorreia/nodejs-goldylocks-api.git"
+  },
+  "keywords": [
+    "goldylocks",
+    "api",
+    "invoicing"
+  ],
+  "author": "Hélder Correia <helderrscorreia@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helderrscorreia/nodejs-goldylocks-api/issues"
+  },
+  "homepage": "https://github.com/helderrscorreia/nodejs-goldylocks-api#readme",
+  "dependencies": {
+    "needle": "^2.5.0"
+  },
+  "devDependencies": {}
+}
