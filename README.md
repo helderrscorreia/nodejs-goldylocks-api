@@ -1,6 +1,8 @@
 # nodejs-goldylocks-api
 Node.js module to interact with [Goldylocks](https://www.goldylocks.pt) invoicing software API.
 
+[![NPM](https://nodei.co/npm/goldylocks.png)](https://nodei.co/npm/goldylocks/)
+
 ```js
 const Goldylocks = require('goldylocks');
 const gl = new Goldylocks();
