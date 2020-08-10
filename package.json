@@ -4,7 +4,8 @@
   "description": "Library to access Goldylocks invoicing system API",
   "main": "lib/goldylocks",
   "directories": {
-    "lib": "lib"
+    "lib": "lib",
+    "test": "test"
   },
   "scripts": {
     "start": "node lib/goldylocks.js",
